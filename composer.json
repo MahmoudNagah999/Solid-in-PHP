@@ -3,7 +3,8 @@
     "description": "Solid in php example",
     "autoload": {
         "psr-4": {
-            "Dell\\SolidInPhp\\": "src/"
+            "Dell\\SolidInPhp\\": "src/",
+            "Classes\\": "Classes"
         }
     },
     "authors": [

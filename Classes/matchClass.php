@@ -1,14 +1,23 @@
 <?php
+
+namespace Classes;
+
 class matchClass
 {
-    public function attack(){
-        return "attack";
+    private $att;
+    private $def;
+    private $keep;
+
+    public function __construct()
+    {
+        $this->att = new attack();
+        $this->def = new defence();
+        $this->keep = new keeper();       
     }
-    public function defence(){
-        return "defence";
+
+    public function start(){
+        return "start match";
     }
-    public function keeper(){
-        return "keeper";
-    }
+    
 
 }
