@@ -1,0 +1,16 @@
+{
+    "name": "dell/solid-in-php",
+    "description": "Solid in php example",
+    "autoload": {
+        "psr-4": {
+            "Dell\\SolidInPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MahmoudNagah999",
+            "email": "Mahmoudnagah999@gmail.com"
+        }
+    ],
+    "require": {}
+}
