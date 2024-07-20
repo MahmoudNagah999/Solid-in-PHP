@@ -1,0 +1,25 @@
+<?php
+
+namespace Classes;
+
+class FootBallMatch
+{
+    private $attack;
+    private $defense;
+    private $kepper;
+
+    public function __construct()
+    {
+        $this->attack = new Attack();
+        $this->defense = new Defense();
+        $this->kepper = new Keeper();
+    }
+
+    public function start()
+    {
+       echo $this->attack->attack();
+       echo $this->defense->defend();
+       echo $this->kepper->keep();
+    }
+
+}
